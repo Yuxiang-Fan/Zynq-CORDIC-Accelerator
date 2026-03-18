@@ -1,0 +1,25 @@
+# --- Vivado / FPGA Specific ---
+*.jou
+*.log
+*.pb
+*.str
+*.dir/
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/sources_1/bd/*/hdl/
+*.sdk/
+!*.sdk/*/src/
+
+# --- Python / Data Science Specific ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.vscode/
+.idea/
